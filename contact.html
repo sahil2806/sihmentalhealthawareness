@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link the bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- link the bootstrap -->
+
+    <!-- bootstrap scipt -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap scipt -->
+
+    <!-- this link is added for icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- this link is added for icon -->
+
+    <link rel="stylesheet" href="css/mentalhealthawareness.css" />
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .contactcontainer {
+            margin-top: 130px;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+        }
+
+        
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            animation: slideInUp 1s ease-in-out; /* Slide-in-up animation */
+        }
+
+       
+
+        .contact-info div {
+            text-align: center;
+        }
+
+        .contact-info img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        form {
+            margin-top: 30px;
+            animation: fadeInUp 1s ease-in-out; /* Fade-in-up animation */
+        }
+
+       
+         
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+<!----------------- Navbar ---------------------->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a href="" class="navbar-brand">
+            <img src="image/logo.png" alt="" class="weblogo" />
+            <img
+              src="https://www.mentalhealth.org.uk/themes/custom/mhf/img/logo-ribbon-default-light.svg"
+              alt=""
+              class="moblogo"
+            />
+          </a>
+          <!--mobile menu-->
+          <button
+            class="navbar-toggler"
+            data-bs-target="#a"
+            data-bs-toggle="collapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="navbar-collapse collapse" id="a">
+            <ul class="navbar-nav text-center ms-auto">
+              <li><a href="index.html" class="nav-link">Home</a></li>
+              <li><a href="about.html" class="nav-link">About</a></li>
+              <li><a href="ourteam.html" class="nav-link">Our Team</a></li>
+              <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+              <li><a href="careers.html" class="nav-link">CAREERS</a></li>
+              </button>
+            </ul>
+          </div>
+        </div>
+        <!--container-fluid end-->
+      </nav>
+ <!----------------- Navbar ---------------------->
+
+ <!-- first part of contact -->
+    <div class="container   mb-5 contact contactcontainer">
+        <h1>Contact Us</h1>
+
+        <div class="contact-info">
+            <div>
+                <img class="w-100" src="image/address.jpg" alt="Address Image">
+                <p>gwalior (Madhya Pradesh)</p>
+            </div>
+            <div>
+                <img class="w-100" src="image/email.png" alt="Email Image">
+                <p>Email: sahilsahu2806@gmail.com</p>
+            </div>
+            <div>
+                <img class="w-100" src="image/phone.jpg" alt="Phone Image">
+                <p>Phone: 9131213881</p>
+            </div>
+        </div>
+
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+           <button>Submit</button>
+        </form>
+    </div>
+<!-- first part  of contact -->
+
+<!-------------fotter five start ---------------->
+    <div class="container-fluid fotter mt-5 pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h4 class="hh">Quick links</h4>
+              <ul>
+                <li><a href="#">Get help</a></li>
+                <li><a href="#">Explore mental health</a></li>
+                <li><a href="#">A-Z topics</a></li>
+                <li><a href="#">Publications</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4 class="hh">Nations</h4>
+              <ul>
+                <li><a href="#">United Kingdom</a></li>
+                <li><a href="#">England</a></li>
+                <li><a href="#">Scotland</a></li>
+                <li><a href="#">Wales</a></li>
+                <li><a href="#">Northern Ireland</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4 class="hh">Social</h4>
+              <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4 style="font-size: 35px">Sign up for email updates</h4>
+              <p>
+                We’ll send you updates and information about our work and how you
+                can support us.
+              </p>
+              <button class="fotter_button">Sign up</button>
+            </div>
+          </div>
+          <div class="row mt-5 mb-5">
+            <div class="col-md-6">
+              <img
+                src="	https://www.mentalhealth.org.uk/themes/custom/mhf/img/logo-ribbon-default.svg"
+                style="width: 223px"
+                alt=""
+              />
+            </div>
+            <div class="col-md-6">
+              <img
+                src="	https://www.mentalhealth.org.uk/themes/custom/mhf/img/mhaw_logo.svg"
+                style="width: 241px; height: 76px"
+                alt=""
+              />
+            </div>
+          </div>
+          <p style="font-weight: bold">
+            Privacy Cookies Terms of use Copyright © 2023 All Rights Reserved
+            Registered Charity No. England and Wales 801130 Scotland SC 039714 /
+            Company Registration No. 2350846 VAT Number GB524451857 Registered
+            with Fundraising Regulator
+          </p>
+        </div>
+      </div>
+<!-------------fotter five end ---------------->
+
+</body>
+
+</html>

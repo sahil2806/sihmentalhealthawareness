@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- link the bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- link the bootstrap -->
+
+  <!-- bootstrap scipt -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap scipt -->
+
+  <!-- this link is added for icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- this link is added for icon -->
+
+  <link rel="stylesheet" href="css/mentalhealthawareness.css" />
+  <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Understand Yourself Better</h1>
+    </header>
+
+    <section class="quiz">
+        <h2>Big 5 Personality Test</h2>
+        <p>Answer the following questions to learn more about your personality:</p>
+
+        <form action="#results" method="post">
+            <label>
+                1. I am generally:
+                <input type="radio" name="q1" value="introverted"> Introverted
+                <input type="radio" name="q1" value="extroverted"> Extroverted
+            </label>
+
+            <label>
+                2. I prefer:
+                <input type="radio" name="q2" value="routine"> Routine
+                <input type="radio" name="q2" value="variety"> Variety
+            </label>
+
+            <label>
+                3. When faced with a challenge, I am more likely to be:
+                <input type="radio" name="q3" value="calm"> Calm
+                <input type="radio" name="q3" value="energetic"> Energetic
+            </label>
+
+            <label>
+                4. I enjoy spending my free time:
+                <input type="radio" name="q4" value="alone"> Alone
+                <input type="radio" name="q4" value="with-others"> With others
+            </label>
+
+            <label>
+                5. I consider myself:
+                <input type="radio" name="q5" value="organized"> Organized
+                <input type="radio" name="q5" value="spontaneous"> Spontaneous
+            </label><br>
+             <input class="butt" type="button" value="Submit">
+        </form>
+    </section>
+</body>
+</html>

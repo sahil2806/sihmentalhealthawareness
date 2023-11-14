@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mental Health Information</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light Blue */
+        }
+        .container {
+            background-color: #ffffff; /* White */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .btn-primary {
+            background-color: #007bff; /* Blue */
+            border-color: #007bff; /* Blue */
+        }
+        .btn-primary:hover {
+            background-color: #0056b3; /* Darker Blue on hover */
+            border-color: #0056b3; /* Darker Blue on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-center">Mental Health Information Form</h1>
+
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+
+        <div class="mb-3">
+            <label for="age" class="form-label">Age</label>
+            <input type="number" class="form-control" id="age" placeholder="Your Age">
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+
+        <div class="mb-3">
+            <label for="symptoms" class="form-label">Mental Health Symptoms (if any)</label>
+            <textarea class="form-control" id="symptoms" rows="4" placeholder="Describe your symptoms"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="reason" class="form-label">Reason for Seeking Help</label>
+            <textarea class="form-control" id="reason" rows="4" placeholder="Why are you seeking help?"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="provider" class="form-label">Preferred Mental Health Provider (if any)</label>
+            <input type="text" class="form-control" id="provider" placeholder="Provider's Name or Organization">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<div class="container mt-5 mb-5">
+    <h2 class="text-center">Mental Health Resources</h2>
+    <p>If you or someone you know is in crisis or needs immediate assistance, please contact a mental health professional or a crisis hotline.</p>
+    <ul>
+        <li><strong>National Suicide Prevention Lifeline:</strong> 1-800-273-8255</li>
+        <li><strong>Crisis Text Line:</strong> Text HOME to 741741</li>
+        <li><strong>National Alliance on Mental Illness (NAMI):</strong> <a href="https://www.nami.org/" target="_blank">Visit NAMI</a></li>
+    </ul>
+</div>
+
+</body>
+</html>

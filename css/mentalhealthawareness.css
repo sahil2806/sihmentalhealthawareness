@@ -1,0 +1,252 @@
+/* home */
+.weblogo {
+  width: 270px;
+  height: 61px;
+}
+
+.navbar {
+  background-color: white !important;
+
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+  display: block;
+
+}
+
+.navbar-nav li a {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.navbar-nav li:hover {
+  background-color: #a30057;
+  border-radius: 30px;
+
+}
+
+.moblogo {
+  display: none;
+}
+
+.banner1 {
+  background-color: #44787d;
+  height: 200px;
+  color: white;
+}
+
+.banner2 {
+  background-image: url(https://www.felicity.care/assets/images/home-asset.webp);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+
+}
+
+.banner2 .cc {
+  animation: translateYAnimation 2s infinite;
+}
+
+@keyframes translateYAnimation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.banner2button {
+  background-color: #e17f3b;
+  border: none;
+  width: 111px;
+  height: 39px;
+  border-radius: 46px;
+}
+
+.banner3 img {
+  height: 271px;
+}
+
+.banner3_c:hover {
+  border: 1px solid black;
+
+}
+.banner4 {
+  color: #e17f3b
+}
+
+.banner4 p {
+  font-weight: bold;
+}
+
+/* fotter */
+.fotter {
+  background-color: #eaeff5;
+}
+
+.fotter li {
+  list-style: none;
+  margin-top: 15px;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+.fotter li a {
+  text-decoration: none;
+  color: black;
+}
+
+.fotte li a:hover {
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.hh {
+  margin-left: 25px;
+  font-size: 35px;
+}
+
+.fotter_button {
+  background-color: #a30057;
+  width: 301px;
+  height: 65px;
+  border-radius: 136px;
+  color: white;
+  font-size: 23px;
+}
+
+
+/* about page start */
+
+.aboutfirst{
+    margin-top: 95px; 
+}
+
+.aboutfirst .help{
+    line-height: 35px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-family: mayo-sans,sans-serif;
+}
+.aboutfirsttest{
+    background-image: url(https://www.betterup.com/hubfs/blog-bkgd2.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.aboutfirsttest button{
+  border-radius: 20px;
+  background-color: #ce0058;
+  color: white;
+  height: 43px;
+  width: 177px;
+}
+
+.quiz .butt{
+  border-radius: 20px;
+  background-color: #ce0058;
+  color: white;
+  height: 43px;
+  width: 177px;
+}
+
+.aboutborder{
+    border: 20px solid #dbdbdb;
+}
+
+.aboutfirst button{
+  border-radius: 20px;
+  background-color: #ce0058;
+  color: white;
+  height: 54px;
+  width: 213px;
+}
+
+.contact button{
+  border-radius: 20px;
+  background-color: #ce0058;
+  color: white;
+  height: 43px;
+  width: 177px;
+}
+
+
+ /* carres page css */
+
+ .carrers{
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .img123 {
+    width: 100%;
+    margin-top: 77px;
+  }
+
+  .moblogo {
+    display: block;
+  }
+
+  .weblogo {
+    display: none;
+  }
+
+  .navbar {
+    background-color: rgb(246 132 144) !important;
+    ;
+  }
+}
